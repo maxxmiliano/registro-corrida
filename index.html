@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Minha Corrida Semanal</title>
+</head>
+<body>
+    <header>
+      <h1>Minha Corrida Semanal</h1>
+    </header>
+    <main>
+      <p>Esta é uma página para armazenar dados da minha corrida semanal.</p>
+      <h2>Registre Sua Corrida Semanal</h2>
+      <form>
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data"><br>
+
+        <label for="distancia">Distância (em km):</label>
+        <input type="number" id="distancia" name="distancia"><br>
+
+        <label for="tempo">Tempo Gasto (em minutos):</label>
+        <input type="number" id="tempo" name="tempo"><br>
+
+        <label for="notas">Notas Adicionais:</label><br>
+        <textarea id="notas" name="notas"></textarea><br>
+
+        <button type="submit">Salvar Dados</button>
+      </form>
+    </main>
+    <footer>
+      <p>Maxmiliano 2023</p>
+    </footer>
+
+    <table id="tabela-corrida">
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Distância (km)</th>
+            <th>Tempo (min)</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- linhas da tabela serão adicionadas automaticamente pelo JavaScript -->
+        </tbody>
+        <script src="/script.js"></script>
+    </table>
