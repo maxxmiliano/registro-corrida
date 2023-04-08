@@ -1,6 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: rgb(182, 236, 218);
     margin: 0;
     padding: 0;
     overflow-x: hidden ;
@@ -9,8 +10,8 @@ body {
   /* Define o estilo do cabeçalho */
   
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: #f56708;
+    color: #0eeaea;
     padding: 20px;
     text-align: center;
   }
@@ -63,23 +64,30 @@ body {
   /* Define o estilo da tabela */
   
   table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 20px;
+    
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 14px;
+    
+    
   }
   
   th, td {
-    text-align: left;
     padding: 8px;
+    margin: 0 auto;
+    
   }
   
   th {
-    background-color: #333;
-    color: #fff;
+    background-color: #f56708;
+    color: #0eeaea;
+    display: flex;
+    
   }
   
+  
   tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #f9f6f6;
   }
   
   /* Define o estilo responsivo */
@@ -107,12 +115,7 @@ body {
       font-size: 16px;
     }
   
-    table {
-      margin: 10px;
-      font-size: 16px;
-    }
+    
   
-    th, td {
-      padding: 6px;
-    }
+   
   }
